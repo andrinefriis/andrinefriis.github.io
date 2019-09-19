@@ -1,0 +1,7 @@
+article h1 {
+    color: pink;
+}
+
+article>h1 {
+    color: #f200ba;
+}
