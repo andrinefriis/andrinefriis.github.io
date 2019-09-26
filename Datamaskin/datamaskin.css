@@ -3,5 +3,17 @@ article h1 {
 }
 
 article>h1 {
+    color: rgb(249, 135, 154);
+}
+
+article {
+    line-height: 30px;
+}
+
+h1 {
     color: #f200ba;
+}
+
+img {
+    width: 20em;
 }

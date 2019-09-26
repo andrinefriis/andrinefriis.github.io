@@ -10,29 +10,56 @@
 <link rel="stylesheet" href="datamaskin.css">
 
 <body>
+    <script>
+        function hide(e) {
+            e.target.style.display = "none";
+
+        }
+
+        function helpme() {
+            //alert("HELP ME")
+            document.location.href = "https://vg.no"
+        }
+    </script>
     <header>
         <h1>Datamaskinens oppbygging og virkemåte</h1>
+        <button onclick="helpme()">helpme</button>
+
     </header>
     <main>
         <article>
             <h1>Prosessor</h1>
             <div>
                 <p>
-                    Prosessoeren er hjernen i datamaskinen. Hastigheten på en CPU er mellom 2-4 GHz for nye maskiner.
+                    CPU er engelsk forkortelse for Central Processing Unit også kalt Prosessor.
+                    <br> Prosessoren er hjernen i datamaskinen.
+                    <br> Hastigheten på en CPU er mellom 2-4 GHz for nye maskiner.
+                    <br> Prosessoren har typisk to logiske bestanddeler: styreenheten og utførelsesenheten.
+                    <br> CPU har overordnet ansvar for alt som skal utføres, og delegerer eventuelt oppgaver til andre enheter.
                 </p>
                 <h1>Intel</h1>
                 <p>
                     Intel er en amerikansk produsent av mikroprosessorer.
                     <br> Intel ble grunnlagt 18 juli 1968 av fysiker Robert Noyce, og kjemikerne Gordon Moore og Andrew Grov
+                    <br> Selskapet var verdens største innen halvlederteknologi frem til det ble forbigått av Samsung i 2017.
+                    <br> Intel står bak x86-arkitekturen som benyttes i de fleste PC-er.
+                    <br> Grunnlagt 1968 - laget intel 4004 CPU, 4 bits cpu.
+                    <br> Dagens CPUer 64bit. 4 bit gir 2^4 som største tall = 16
+                    <br> For 5-6år siden var standars størrelsen 32 bit (som hadde tall på 4294967296)
+                    <br> Dagens CPU kan jobbe med tall på 2^64 = 18446744073709551616
+                    <br> <img src="I8086.jpg" alt="Intel">
                 </p>
-                <h1>AMS</h1>
+                <h1>AMD</h1>
                 <p>
-                    AMS står for Avanserte Måle- og Styringssystemer.
-                    <br> AMS gjør at forbrukere kan få mer oversikt over strømforbruket sitt.
+                    AMD (Advanced Micro Devices) laget sin første CPU 8080 AM9080 (en klone av intel 8080)
+                    <br> <img src="AMD.jpg" alt="AMD">
                 </p>
                 <h1>ARM</h1>
                 <p>
-                    ARM er en 32-bits reduced instruction set computer (RISC).
+                    Acorn (Advanced) RISC (Reduced Instruction Set Computer) Machine.
+                    <br> RISC CPUer har få og enkle instrukser ( i motsetning til Intel).
+                    <br> Hver instruks skal ta minst mulig tid.
+                    <br> ARM er en 32-bits reduced instruction set computer (RISC).
                     <br> ARMs-professoerer har lavt strømforbruk og derfor er de spesielt egnet for bruk i bærbare enheter.
                     <br> Nesten alle moderne mobiltelefoner innneholder ARM-prosessor noe som gjør den til den mest brukte 32-bit mikroprosessorfamilien i verden.
                 </p>
@@ -44,6 +71,7 @@
             <div>
                 <p>
                     Ram er en forkortelse som betyr Random Access Memory
+                    <br> Rom er en forkortelse som betyr Read Only Memory
 
                 </p>
             </div>
