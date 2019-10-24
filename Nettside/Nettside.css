@@ -1,0 +1,11 @@
+.start-video {
+    float: left;
+    width: 100%;
+}
+
+embed,
+iframe,
+object,
+video {
+    max-width: 100%;
+}

@@ -1,0 +1,27 @@
+h1 {
+    color: lightskyblue;
+}
+
+th,
+td,
+table {
+    border: solid gray 1px;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+thead {
+    background-color: lightskyblue;
+}
+
+{
+    background-color: grey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: pink;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(189, 226, 249);
+}

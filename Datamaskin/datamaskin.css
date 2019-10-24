@@ -1,19 +1,38 @@
-article h1 {
-    color: pink;
-}
-
-article>h1 {
-    color: rgb(249, 135, 154);
-}
-
-article {
-    line-height: 30px;
-}
-
-h1 {
-    color: #f200ba;
-}
-
-img {
-    width: 20em;
-}
+            article h1 {
+            color: pink;
+        }
+        
+        article>h1 {
+            color: rgb(249, 135, 154);
+        }
+        
+        article {
+            line-height: 30px;
+        }
+        
+        h1 {
+            color: #f200ba;
+        }
+        
+        img {
+            width: 20em;
+        }
+        
+        td,
+        th,
+        table {
+            border: solid gray 1px;
+            border-collapse: collapse;
+            padding: 2px;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: rgb(198, 221, 198);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: rgb(180, 230, 250);
+        }
+        
+        th {
+            background-color: lightcyan;
