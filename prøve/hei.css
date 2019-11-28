@@ -1,0 +1,28 @@
+#main {
+    width: 800px;
+    height: 600px;
+    border: solid grey;
+}
+
+#a {
+    position: absolute;
+    left: 20px;
+    top: 2em;
+    background-color: blue;
+}
+
+#b {
+    position: absolute;
+    left: 100px;
+    top: 6.2em;
+    background-color: red;
+}
+
+#c {
+    position: absolute;
+    left: 210px;
+    top: 2em;
+    background-color: yellow;
+  animation: 
+    
+}
